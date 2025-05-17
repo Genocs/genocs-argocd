@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: guestbook-ui
-          image: dockehub.io/jelledruyts/inspectorgadget:latest
+          image: docker.io/jelledruyts/inspectorgadget:latest
           resources:
             requests:
               cpu: 100m
