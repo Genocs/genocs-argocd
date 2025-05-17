@@ -27,8 +27,6 @@ jsonnet is a data-templating language that allows you to generate JSON or YAML f
 jsonnet is a powerful tool for generating Kubernetes manifests, and it can be used in conjunction with ArgoCD to manage your Kubernetes applications. In this repository, we will explore how to use jsonnet with ArgoCD to manage your Kubernetes applications.
 # Getting Started
 ## Prerequisites
-- [yq](
-
 
 
 | Application | Description |

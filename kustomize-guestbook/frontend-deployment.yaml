@@ -19,11 +19,11 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: php-redis
-        image: gcr.io/google-samples/gb-frontend:v7
-        resources:
-          requests:
-            cpu: 100m
-            memory: 100Mi
-        ports:
-        - containerPort: 80
+        - name: php-redis
+          image: gcr.io/google-samples/gb-frontend:v7
+          resources:
+            requests:
+              cpu: 100m
+              memory: 100Mi
+          ports:
+            - containerPort: 80
