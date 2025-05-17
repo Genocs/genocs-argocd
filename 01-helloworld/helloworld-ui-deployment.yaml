@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: guestbook-ui
-          image: gcr.io/google-samples/gb-frontend:sample-public-image-v5-5be2e51
+          image: dockehub.io/jelledruyts/inspectorgadget:latest
           resources:
             requests:
               cpu: 100m

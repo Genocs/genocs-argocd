@@ -44,3 +44,10 @@ jsonnet is a powerful tool for generating Kubernetes manifests, and it can be us
 | [sock-shop](sock-shop/) | A microservices demo app (https://microservices-demo.github.io) |
 | [plugins](plugins/) | Apps which demonstrate config management plugins usage |
 | [apps](apps/) | An app composed of other apps |
+
+
+## 01-helloworld
+Is a simple hello world application that demonstrates how to use ArgoCD to deploy a simple application. The application is a simple web server that returns "Hello World" when accessed.
+
+## 02-helm-guestbook
+Is a simple guestbook application that demonstrates how to use ArgoCD to deploy a Helm chart. The application is a simple guestbook application that allows users to leave messages and view messages left by other users.
