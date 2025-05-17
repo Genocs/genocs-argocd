@@ -88,15 +88,15 @@ In this repository, we will explore how to use Jsonnet with ArgoCD to manage you
 | [plugins](plugins/) | Apps which demonstrate config management plugins usage |
 
 
-## 01-helloworld
+## 01. Helloworld
 Is a simple hello world application that demonstrates how to use ArgoCD to deploy a simple application. The application is a simple web server that returns "Hello World" when accessed.
 
-## 02-helm-guestbook
+## 02. Helm-guestbook
 Is a simple guestbook application that demonstrates how to use ArgoCD to deploy a Helm chart. The application is a simple guestbook application that allows users to leave messages and view messages left by other users.
 
-# 03-pov
+## 03. POV
 Is a simple application that demonstrates how to use ArgoCD to deploy a Persistent Volume Claim (PVC). The application is a simple web server that uses the PVC to store data. The PVC is created using a StorageClass that is defined in the Kubernetes cluster.
 The application is a simple web server that uses the PVC to store data. The PVC is created using a StorageClass that is defined in the Kubernetes cluster.
 
-## 04-apps
+## 04. Apps
 Is a simple application that demonstrates how to use ArgoCD to deploy an application composed of other applications.
