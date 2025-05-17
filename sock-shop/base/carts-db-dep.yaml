@@ -1,3 +1,18 @@
+# This file defines the deployment for the carts-db service that will run a MongoDB database.
+# It uses a single replica and mounts a temporary volume for data storage.
+# The deployment is configured to run on Linux nodes only.
+# The MongoDB container is configured with security context settings to drop all capabilities
+# except for CHOWN, SETGID, and SETUID, and to use a read-only root filesystem.
+# The MongoDB container will listen on port 27017.
+# The deployment is labeled with "name: carts-db" for identification and selection purposes.
+# The deployment is defined in YAML format and follows the Kubernetes API version apps/v1.
+# The deployment is named "carts-db" and is managed by the Kubernetes API.
+# The deployment is defined in the "spec" section, which includes the number of replicas,
+# the selector for matching labels, and the template for the pod specification.
+# The pod template includes metadata labels, a container definition with the MongoDB image,
+# the container port, security context settings, and volume mounts.
+# The volume is defined as an empty directory with a memory medium, which means it will
+# be stored in memory and will not persist across pod restarts.
 ---
 apiVersion: apps/v1
 kind: Deployment
