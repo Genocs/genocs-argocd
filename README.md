@@ -100,3 +100,67 @@ The application is a simple web server that uses the PVC to store data. The PVC 
 
 ## 04. Apps
 Is a simple application that demonstrates how to use ArgoCD to deploy an application composed of other applications.
+
+
+
+----
+>
+> This repository is a work in progress and will be updated with more examples and applications over time. If you have any questions or suggestions, please feel free to open an issue or pull request.
+>
+
+# Dapr
+[![Dapr Logo](./assets/Dapr_logo.svg)](https://Dapr.io)
+
+
+[**Dapr**](https://dapr.io) (Distributed Application Runtime) is an open-source project that provides a set of building blocks for developing microservices applications. It simplifies the development of distributed applications by providing a set of APIs and runtime components that can be used to build, deploy, and manage microservices.
+Dapr provides a set of building blocks that can be used to build microservices applications, including:
+- *Service invocation*: Dapr provides a simple API for invoking services, allowing developers to easily call other services in their application.
+- *State management*: Dapr provides a simple API for managing state, allowing developers to easily store and retrieve state in their application.
+- *Pub/sub messaging*: Dapr provides a simple API for sending and receiving messages, allowing developers to easily communicate between services in their application.
+- *Bindings*: Dapr provides a simple API for integrating with external systems, allowing developers to easily connect their application to external services.
+- *Secrets management*: Dapr provides a simple API for managing secrets, allowing developers to easily store and retrieve secrets in their application.
+- *Observability*: Dapr provides a simple API for collecting metrics and logs, allowing developers to easily monitor their application.
+- *Distributed tracing*: Dapr provides a simple API for collecting distributed traces, allowing developers to easily trace requests through their application.
+- *Resiliency*: Dapr provides a simple API for implementing resiliency patterns, allowing developers to easily handle failures in their application.
+- *Actor model*: Dapr provides a simple API for implementing the actor model, allowing developers to easily build applications using the actor model.
+- *Sidecar architecture*: Dapr uses a sidecar architecture, allowing developers to easily integrate Dapr into their existing applications without modifying the application code.
+- *Language agnostic*: Dapr is language agnostic, allowing developers to use any programming language to build their applications.
+- *Platform agnostic*: Dapr is platform agnostic, allowing developers to run their applications on any platform, including Kubernetes, VMs, and bare metal.
+- *Cloud agnostic*: Dapr is cloud agnostic, allowing developers to run their applications on any cloud provider, including AWS, Azure, and Google Cloud.
+- *Open source*: Dapr is an open source project, allowing developers to contribute to the project and use it in their applications without any licensing fees.
+- *Community driven*: Dapr is a community driven project, allowing developers to contribute to the project and use it in their applications without any licensing fees.
+- Extensible: Dapr is extensible, allowing developers to easily add new building blocks and components to the project.
+- Modular: Dapr is modular, allowing developers to easily add new building blocks and components to the project.
+- Lightweight: Dapr is lightweight, allowing developers to easily add new building blocks and components to the project.
+- Fast: Dapr is fast, allowing developers to easily add new building blocks and components to the project.
+- Scalable: Dapr is scalable, allowing developers to easily add new building blocks and components to the project.
+- Secure: Dapr is secure, allowing developers to easily add new building blocks and components to the project.
+- Reliable: Dapr is reliable, allowing developers to easily add new building blocks and components to the project.
+- Flexible: Dapr is flexible, allowing developers to easily add new building blocks and components to the project.
+- Easy to use: Dapr is easy to use, allowing developers to easily add new building blocks and components to the project.
+- Easy to learn: Dapr is easy to learn, allowing developers to easily add new building blocks and components to the project.
+- Easy to integrate: Dapr is easy to integrate, allowing developers to easily add new building blocks and components to the project.
+- Easy to deploy: Dapr is easy to deploy, allowing developers to easily add new building blocks and components to the project.
+- Easy to manage: Dapr is easy to manage, allowing developers to easily add new building blocks and components to the project.
+- Easy to monitor: Dapr is easy to monitor, allowing developers to easily add new building blocks and components to the project.
+- Easy to debug: Dapr is easy to debug, allowing developers to easily add new building blocks and components to the project.
+- Easy to test: Dapr is easy to test, allowing developers to easily add new building blocks and components to the project.
+
+One of the main concern developers have when building Dapr application is:
+
+> **how to leverage the debug capability provided by Visual Studio?** 
+
+One easy solution is to use a Visual Studio Code extension called [Dapr Debugger](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-dapr). Even though this extension comes with a lot of features, it is not the only way to debug Dapr applications. In this section, we will explore how to debug Dapr applications using Visual Studio and Visual Studio Code.
+## Debugging Dapr applications using Visual Studio
+### Prerequisites
+- Visual Studio 2022 or later
+- Visual Studio Code 2022 or later
+- Dapr CLI installed
+- Dapr runtime installed
+- Dapr runtime running
+- Dapr runtime configured
+- Dapr runtime running in Kubernetes
+- Dapr runtime running in Docker
+- Dapr runtime running in WSL
+
+
