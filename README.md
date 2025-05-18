@@ -74,8 +74,8 @@ In this repository, we will explore how to use Jsonnet with ArgoCD to manage you
 
 | Application | Description |
 |-------------|-------------|
-| [hello-world](01-helloworld/) | A hello word guestbook app as plain YAML |
-| [helm-guestbook](02-helm-guestbook/) | The guestbook app as a Helm chart |
+| [hello-world](01-helloworld/) | A helloworld app (inspectorgadget) as plain YAML |
+| [helm-helloworld](02-helm-helloworld/) | A helloworld app (inspectorgadget) app as a Helm chart |
 | [pov](03-pov/) | A Persistent Volume Claim to be used for a ngnix web application |
 | [apps](04-apps/) | An app composed of other apps |
 | [jsonnet-guestbook](jsonnet-guestbook/) | The guestbook app as a raw jsonnet |
@@ -89,19 +89,17 @@ In this repository, we will explore how to use Jsonnet with ArgoCD to manage you
 
 
 ## 01. Helloworld
-Is a simple hello world application that demonstrates how to use ArgoCD to deploy a simple application. The application is a simple web server that returns "Hello World" when accessed.
+Is a simple hello world application that demonstrates how to use ArgoCD to deploy an application as plain YAML. The application is the inspectorgadget application that allows users to view the web server configuration.
 
-## 02. Helm-guestbook
-Is a simple guestbook application that demonstrates how to use ArgoCD to deploy a Helm chart. The application is a simple guestbook application that allows users to leave messages and view messages left by other users.
+## 02. Helm-Helloworld
+Is a simple hello world application that demonstrates how to use ArgoCD to deploy a Helm chart. The application is the inspectorgadget application that allows users to view the web server configuration.
 
 ## 03. POV
-Is a simple application that demonstrates how to use ArgoCD to deploy a Persistent Volume Claim (PVC). The application is a simple web server that uses the PVC to store data. The PVC is created using a StorageClass that is defined in the Kubernetes cluster.
-The application is a simple web server that uses the PVC to store data. The PVC is created using a StorageClass that is defined in the Kubernetes cluster.
+Is a simple application that demonstrates how to use ArgoCD to deploy a Persistent Volume Claim (PVC). The PVC is created using a StorageClass that is defined in the Kubernetes cluster.
 
 ## 04. Apps
-Is a simple application that demonstrates how to use ArgoCD to deploy an application composed of other applications.
-
-
+Is a microservice application that demonstrates how to use ArgoCD to deploy an application composed of a set of services. The Images are publicly available on Docker Hub. The application is the common used Genocs Library Microservice application. 
+The application is composed of the following services:
 
 ----
 >

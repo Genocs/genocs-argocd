@@ -16,8 +16,8 @@ function (
         "spec": {
             "ports": [
                 {
-                "port": servicePort,
-                "targetPort": containerPort
+                    "port": servicePort,
+                    "targetPort": containerPort
                 }
             ],
             "selector": {
@@ -37,27 +37,27 @@ function (
             "revisionHistoryLimit": 3,
             "selector": {
                 "matchLabels": {
-                "app": name
-                },
+                    "app": name
+                }
             },
             "template": {
                 "metadata": {
-                "labels": {
-                    "app": name
-                }
+                    "labels": {
+                        "app": name
+                    }
                 },
                 "spec": {
-                "containers": [
-                    {
-                        "image": image,
-                        "name": name,
-                        "ports": [
+                    "containers": [
                         {
-                            "containerPort": containerPort
+                            "image": image,
+                            "name": name,
+                            "ports": [
+                                {
+                                    "containerPort": containerPort
+                                }
+                            ]
                         }
-                        ]
-                    }
-                ]
+                    ]
                 }
             }
         }

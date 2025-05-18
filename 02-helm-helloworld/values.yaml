@@ -1,12 +1,12 @@
-# Default values for helm-guestbook.
+# Default values for helm-helloworld.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: docker.io/corelab/ks-guestbook-demo
-  tag: 0.1
+  repository: docker.io/jelledruyts/inspectorgadget:latest
+  tag: atest
   pullPolicy: IfNotPresent
 
 service:
