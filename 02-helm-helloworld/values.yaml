@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/jelledruyts/inspectorgadget:latest
-  tag: atest
+  repository: docker.io/jelledruyts/inspectorgadget
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
