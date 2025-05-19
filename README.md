@@ -78,7 +78,8 @@ In this repository, we will explore how to use Jsonnet with ArgoCD to manage you
 | [helm-helloworld](02-helm-helloworld/) | A helloworld app (inspectorgadget) app as a Helm chart |
 | [pov](03-pov/) | A Persistent Volume Claim to be used for a ngnix web application |
 | [apps](04-apps/) | An app composed of other apps |
-| [jsonnet-guestbook](jsonnet-guestbook/) | The guestbook app as a raw jsonnet |
+| [gnx-apps](05-gnx-apps/) | A full fladge microservice app composed of other apps |
+| [jsonnet-helloworld](06-jsonnet-helloworld/) | The helloworld app as a raw jsonnet |
 | [jsonnet-guestbook-tla](jsonnet-guestbook-tla/) | The guestbook app as a raw jsonnet with support for top level arguments |
 | [kustomize-guestbook](kustomize-guestbook/) | The guestbook app as a Kustomize 2 app |
 | [pre-post-sync](pre-post-sync/) | Demonstrates Argo CD PreSync and PostSync hooks |
@@ -89,12 +90,12 @@ In this repository, we will explore how to use Jsonnet with ArgoCD to manage you
 
 
 ## 01. Helloworld
-Is a simple hello world application that demonstrates how to use ArgoCD to deploy an application as plain YAML. The application is the inspectorgadget application that allows users to view the web server configuration.
+Is a simple hello world application that demonstrates how to use ArgoCD to deploy an application as plain YAML. The application is the `inspectorgadget` application that allows users to view the web server configuration.
 
 ## 02. Helm-Helloworld
-Is a simple hello world application that demonstrates how to use ArgoCD to deploy a Helm chart. The application is the inspectorgadget application that allows users to view the web server configuration.
+Is a simple hello world application that demonstrates how to use ArgoCD to deploy a Helm chart. The application is the `inspectorgadget` application that allows users to view the web server configuration.
 
-## 03. POV
+## 03. PVC
 Is a simple application that demonstrates how to use ArgoCD to deploy a Persistent Volume Claim (PVC). The PVC is created using a StorageClass that is defined in the Kubernetes cluster.
 
 ## 04. Apps
@@ -127,38 +128,38 @@ Dapr provides a set of building blocks that can be used to build microservices a
 - *Cloud agnostic*: Dapr is cloud agnostic, allowing developers to run their applications on any cloud provider, including AWS, Azure, and Google Cloud.
 - *Open source*: Dapr is an open source project, allowing developers to contribute to the project and use it in their applications without any licensing fees.
 - *Community driven*: Dapr is a community driven project, allowing developers to contribute to the project and use it in their applications without any licensing fees.
-- Extensible: Dapr is extensible, allowing developers to easily add new building blocks and components to the project.
-- Modular: Dapr is modular, allowing developers to easily add new building blocks and components to the project.
-- Lightweight: Dapr is lightweight, allowing developers to easily add new building blocks and components to the project.
-- Fast: Dapr is fast, allowing developers to easily add new building blocks and components to the project.
-- Scalable: Dapr is scalable, allowing developers to easily add new building blocks and components to the project.
-- Secure: Dapr is secure, allowing developers to easily add new building blocks and components to the project.
-- Reliable: Dapr is reliable, allowing developers to easily add new building blocks and components to the project.
-- Flexible: Dapr is flexible, allowing developers to easily add new building blocks and components to the project.
-- Easy to use: Dapr is easy to use, allowing developers to easily add new building blocks and components to the project.
-- Easy to learn: Dapr is easy to learn, allowing developers to easily add new building blocks and components to the project.
-- Easy to integrate: Dapr is easy to integrate, allowing developers to easily add new building blocks and components to the project.
-- Easy to deploy: Dapr is easy to deploy, allowing developers to easily add new building blocks and components to the project.
-- Easy to manage: Dapr is easy to manage, allowing developers to easily add new building blocks and components to the project.
-- Easy to monitor: Dapr is easy to monitor, allowing developers to easily add new building blocks and components to the project.
-- Easy to debug: Dapr is easy to debug, allowing developers to easily add new building blocks and components to the project.
-- Easy to test: Dapr is easy to test, allowing developers to easily add new building blocks and components to the project.
+- Dapr is:
+  - Extensible
+  - Modular
+  - Lightweight
+  - Fast
+  - Scalable
+  - Secure
+  - Reliable
+  - Flexible
+  - Easy to use
+  - Easy to learn
+  - Easy to integrate
+  - Easy to deploy
+  - Easy to manage
+  - Easy to monitor
+  - Easy to debug
+  - Easy to test
 
-One of the main concern developers have when building Dapr application is:
-
+> **NOTE**:
+>
+> One of the main concern developers have when building Dapr application is:
 > **how to leverage the debug capability provided by Visual Studio?** 
 
 One easy solution is to use a Visual Studio Code extension called [Dapr Debugger](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-dapr). Even though this extension comes with a lot of features, it is not the only way to debug Dapr applications. In this section, we will explore how to debug Dapr applications using Visual Studio and Visual Studio Code.
-## Debugging Dapr applications using Visual Studio
-### Prerequisites
-- Visual Studio 2022 or later
-- Visual Studio Code 2022 or later
-- Dapr CLI installed
-- Dapr runtime installed
-- Dapr runtime running
-- Dapr runtime configured
-- Dapr runtime running in Kubernetes
-- Dapr runtime running in Docker
-- Dapr runtime running in WSL
 
+>
+> The Dapr Debugger extension is in preview and is not yet fully supported. 
+> However, it is a great tool for debugging Dapr applications and provides a lot of features that can help you debug your applications.
+>
+
+## Debugging Dapr applications using Visual Studio
+
+### Prerequisites
+- WIP
 
