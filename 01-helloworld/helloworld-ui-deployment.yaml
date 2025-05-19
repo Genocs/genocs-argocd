@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: helloworld-ui
 spec:
-  revisionHistoryLimit: 3
+  revisionHistoryLimit: 6
   progressDeadlineSeconds: 30
   selector:
     matchLabels:
